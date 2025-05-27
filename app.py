@@ -925,8 +925,5 @@ def create_streamlit_ui():
 # =============================================================================
 
 if __name__ == "__main__":
-    """
-    MAIN DEMO ENTRY POINT
-    
     # Launch the FHIR Agentic Scheduler Demo
     create_streamlit_ui()
