@@ -457,18 +457,7 @@ def create_streamlit_ui():
                     st.error("Failed to add provider")
         
         st.markdown("---")
-        st.markdown("### AI Scoring")
-        st.markdown("""
-        **Ranking Criteria:**
-        - Service Match: 30 pts
-        - Specialty Match: 25 pts  
-        - Availability: 20 pts
-        - Time Preference: 15 pts
-        - Active Status: 10 pts
-        
-        **Maximum Score: 100 points**
-        """)
-    
+      
     # Results panel
     with col1:
         st.subheader("Available Appointments")
